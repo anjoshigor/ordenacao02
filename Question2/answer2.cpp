@@ -66,22 +66,6 @@ Node* List::getNode(int pos){
   return aux;
 }
 
-Node* List::getPreviousNode(int pos){
-  if((pos-1)>=this->size)
-    return nullptr;
-
-	if((pos-1)==0)
-		return this->head;
-
-
-  Node* aux = this->head;
-
-  for (int i = 0; i < (pos-2); i++) {
-    aux = aux->next;
-  }
-
-  return aux;
-}
 
 void List::swap(Node* lhs, Node* rhs){
 	int aux = lhs->value;

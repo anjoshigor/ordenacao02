@@ -1,4 +1,4 @@
-#ifndef ANSWERS_H
-#define  ANSWERS_H
+#ifndef ANSWER3_H
+#define  ANSWER3_H
 int find(int* vet, int elem);
 #endif

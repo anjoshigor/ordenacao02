@@ -3,8 +3,6 @@ que foi rotacionado N vezes (você não sabe o valor de N).
 Escreva uma função que busque a posição de um dado elemento de forma eficiente.
 Se o elemento estiver presente repetidas vezes, retorne a posição da primeira
 ocorrência deste elemento.**/
-#include "../answers.hpp"
-
 
 int find(int* vet, int elem){
   int i=0; int j=1;
@@ -12,7 +10,7 @@ int find(int* vet, int elem){
   while(vet[i]<=vet[j]){
 
     if(vet[i]==elem)
-      return i;
+      return ++i;
 
     i++; j++;
   }

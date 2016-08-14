@@ -21,7 +21,6 @@ public:
   void prepend(int value);
   int getValue(int pos);
   Node* getNode(int pos);
-  Node* getPreviousNode(int pos);
   void swap(Node* lhs, Node* rhs);
 };
 
