@@ -1,5 +1,5 @@
 answer2:
-	g++ -std=c++11 -O2 src/answer2.cpp testA2.cpp -o testA2
+	g++ -std=c++11 -O2 src/answer2.cpp src/quicksort.cpp testA2.cpp  -o testA2
 
 answer3:
 	g++ -std=c++11 -O2 src/answer3.cpp testA3.cpp -o testA3

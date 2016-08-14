@@ -16,7 +16,13 @@ public:
   virtual ~List ();
   int size;
   Node* head;
+  Node* tail;
   void append(int value);
+  void prepend(int value);
+  int getValue(int pos);
+  Node* getNode(int pos);
+  Node* getPreviousNode(int pos);
+  void swap(Node* lhs, Node* rhs);
 };
 
 

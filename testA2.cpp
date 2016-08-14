@@ -1,4 +1,4 @@
-#include "src/answer2.hpp"
+#include "src/quicksort.hpp"
 #include <iostream>
 
 int main(int argc, char const *argv[]) {
@@ -17,6 +17,9 @@ int main(int argc, char const *argv[]) {
     linked_list.append(v);
   }
 
+  quicksort(linked_list, n);
+
+  //printing
   Node* head = linked_list.head;
   while(head){
     std::cout << head->value << std::endl;
